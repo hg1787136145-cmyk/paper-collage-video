@@ -23,6 +23,7 @@ outputs/
 runs/
 downloads/
 tmp/
+gif-candidates/
 *.log
 *.pid
 run-result.json

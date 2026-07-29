@@ -1,10 +1,9 @@
 # paper-collage-video
 
 <p align="center">
-  <img src="assets/demo-token-phone-credit.png" width="180" alt="墨绿底：token 像手机电量一样被投入工作台">
-  <img src="assets/demo-api-socket.png" width="180" alt="墨绿底：API 插座连接多个工具盒">
-  <img src="assets/demo-skills-toolbelt.png" width="180" alt="墨绿底：技能工具腰带收纳 agent 能力">
-  <img src="assets/demo-model-brain.png" width="180" alt="墨绿底：模型大脑连接多条推理线路">
+  <img src="assets/demo-employee-starts-work.gif" width="220" alt="墨绿底：agent 员工开始工作">
+  <img src="assets/demo-stop-vibe-loop.gif" width="220" alt="墨绿底：停止低效循环">
+  <img src="assets/demo-real-value-path.gif" width="220" alt="墨绿底：通向真实价值的路径">
 </p>
 
 把口播稿、观点句或抽象概念做成高级编辑风半调纸拼贴 B-roll：先拆视觉隐喻，再生成静帧，最后调用 Yijia 视频 API 做图生视频。
@@ -28,7 +27,7 @@
 3. **Gate 3 视频生成**
    使用当前 `GBRO_VIDEO_PROVIDER` 调用对应脚本。默认一张图一条 prompt，不上传参考视频，不传多图组合。
 
-默认底色：墨绿 `#1E4F3D`。README 顶部示例图使用同一套默认底色；用户可以在 Gate 1 指定其他统一底色。
+默认底色：墨绿 `#1E4F3D`。README 顶部示例 GIF 使用同一套默认底色；用户可以在 Gate 1 指定其他统一底色。
 
 ## 安装
 
