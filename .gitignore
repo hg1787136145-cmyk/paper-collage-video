@@ -1,0 +1,36 @@
+__pycache__/
+*.pyc
+.DS_Store
+
+# Private credentials and local provider config.
+.env
+.env.*
+!.env.example
+*.secret
+*.key
+*.pem
+*.p12
+*.crt
+*.credentials
+credentials/
+secrets/
+config.local.*
+*.local.json
+
+# Generated media and provider responses.
+media/
+outputs/
+runs/
+downloads/
+tmp/
+*.log
+*.pid
+run-result.json
+run-result*.json
+*-jobs.local.json
+gate2-qa.md
+gate3-qa.md
+*.mp4
+*.mov
+*.webm
+*.zip

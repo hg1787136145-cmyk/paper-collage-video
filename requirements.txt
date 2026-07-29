@@ -1,0 +1,2 @@
+# Required only when local images are uploaded to Volcengine TOS.
+tos
